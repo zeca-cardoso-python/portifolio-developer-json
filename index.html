@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfólio | Jeferson Cardoso</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <nav class="nav-left">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-right">
+            <button id="toggle-theme" class="theme-btn" aria-label="Alternar tema">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section id="home" class="home section">
+            <div class="home-inner">
+                <img id="profilePhoto" class="perfil" src="" alt="Foto de perfil">
+                <div class="home-text">
+                    <h1 id="homeName"></h1>
+                    <p id="homeDesc"></p>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <!-- Sobre -->
+        <section id="sobre" class="section">
+            <h2>Sobre Mim</h2>
+            <div id="sobreContent" class="sobre-content"></div>
+        </section>
+
+        <!-- Tecnologias -->
+        <section id="tecnologias" class="section">
+            <h2>Tecnologias</h2>
+            <p id="tecnologiasIntro"></p>
+            <div class="tech-grid" id="techGrid"></div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="section">
+            <h2>Projetos</h2>
+            <div class="projetos-grid" id="projetosGrid"></div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <p id="contatoMsg"></p>
+            <div class="contato-links" id="contatoLinks"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 - Desenvolvido por <strong>Jeferson Cardoso</strong> | Bootcamp Santander 2025 - DIO</p>
+        <img src="assets/img/selo.png" alt="Selo de Credibilidade DIO" class="dio-seal">
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <button id="closeModal" class="modal-close" aria-label="Fechar">✕</button>
+            <img id="modalImage" src="" alt="" class="modal-image">
+            <h3 id="modalTitle"></h3>
+            <div id="modalBody" class="modal-body"></div>
+            <p class="modal-tech" id="modalTech"></p>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>

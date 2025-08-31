@@ -1,0 +1,53 @@
+{
+  "home": {
+    "nome": "Jeferson Cardoso",
+    "descricao": "Assistência Técnica & Infraestrutura | Desenvolvedor Full Stack",
+    "foto": "assets/img/foto_perfil.JPG"
+  },
+  "sobre": [
+    "Profissional com mais de 28 anos de experiência em Tecnologia da Informação, com sólida atuação em infraestrutura, redes, servidores, VPNs, segurança da informação, suporte técnico avançado, eletrônica e liderança de equipes.",
+    "Atuei como gerente de CPD, responsável técnico por projetos de redes e infraestrutura, além de prestar assistência técnica especializada em hardware e software para diversos clientes corporativos. Com uma abordagem inovadora, me destacando como um especialista em tecnologia e lideranças de equipe.",
+    "Desde 2023, tenho me aprofundado em desenvolvimento Full Stack, com foco em Python, JavaScript, Flask, MySQL, HTML e APIs REST, Frameworks como React, buscando unir minha experiência em TI com a criação de soluções modernas e inovadoras."
+  ],
+  "tecnologias": [
+    { "nome": "HTML5", "icone": "assets/icons/html5.png" },
+    { "nome": "CSS3", "icone": "assets/icons/css3.png" },
+    { "nome": "JavaScript", "icone": "assets/icons/js.png" },
+    { "nome": "Python", "icone": "assets/icons/python.png" },
+    { "nome": "React", "icone": "assets/icons/react.png" },
+    { "nome": "Bootstrap", "icone": "assets/icons/bootstrap.png" },
+    { "nome": "MySQL", "icone": "assets/icons/mysql.png" },
+    { "nome": "GitHub", "icone": "assets/icons/github.png" }
+  ],
+  "projetos": [
+    {
+      "titulo": "Projeto Indústria Wayne",
+      "imagem": "assets/img/projeto-wayne.JPG",
+      "descricao": "Sistema interno de gestão e segurança desenvolvido para simular um ambiente corporativo de alta complexidade. Implementa autenticação segura com JWT, controle hierárquico de permissões e dashboard com relatórios.",
+      "detalhes": "Funcionalidades: Login com autenticação JWT, controle de permissões por níveis.",
+      "tecnologias": ["HTML", "CSS", "JavaScript", "Python", "Flask", "SQLite"]
+    },
+    {
+      "titulo": "Projeto PlayFlix - Minha Netflix",
+      "imagem": "assets/img/minha-netflix.JPG",
+      "descricao": "Catálogo de filmes com pesquisa dinâmica e exibição de trailers. Filmes são carregados dinamicamente a partir de objetos JS e API integrations.",
+      "detalhes": "Renderização dinâmica de cards, modal de detalhes, busca em tempo real e integração com APIs de mídia.",
+      "tecnologias": ["HTML", "CSS", "JavaScript", "API"]
+    },
+    {
+      "titulo": "Projeto Caderno de Receitas",
+      "imagem": "assets/img/caderno-receitas.JPG",
+      "descricao": "Site de receitas interativo com busca por categoria, visualização de receitas, registro/login de usuários e integração com TheMealDB.",
+      "detalhes": "Funcionalidades: busca por categoria e nome, visualização de receita com passo a passo, filtro por ingredientes e integração com API externa.",
+      "tecnologias": ["HTML", "CSS", "JavaScript", "APIs"]
+    }
+  ],
+  "contato": {
+    "mensagem": "Estou aberto a novos desafios e parcerias profissionais, com disponibilidade para atuar em projetos remotos. Entre em contato pelos canais abaixo.",
+    "links": [
+      { "icone": "assets/icons/github.png", "url": "https://github.com/zeca-cardoso-python" },
+      { "icone": "assets/icons/linkedin.png", "url": "https://linkedin.com/in/jeferson-cardoso-532b09346" },
+      { "icone": "assets/icons/email.png", "url": "mailto:jmc.cardoso76@gmail.com" }
+    ]
+  }
+}
